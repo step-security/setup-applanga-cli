@@ -15462,7 +15462,7 @@ async function getLatestVersion(version) {
 
 async function run() {
 	try {
-    await validateSubscription
+    await validateSubscription()
 		const applanga = 'applanga'
 		const osPlatform = index_process.platform;
 		var url = '', extractedFile = '';

@@ -1,5 +1,6 @@
 name: 'Setup Applanga CLI action'
 description: 'Setup Applanga command line tool'
+author: 'step-security'
 inputs:
   version:
     description: 'Applanga cli version'
