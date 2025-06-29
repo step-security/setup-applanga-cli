@@ -1,0 +1,12 @@
+name: 'Setup Applanga CLI action'
+description: 'Setup Applanga command line tool'
+inputs:
+  version:
+    description: 'Applanga cli version'
+    required: true
+branding:
+  icon: 'map-pin'  
+  color: 'blue'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
