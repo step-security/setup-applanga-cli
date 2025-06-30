@@ -194,7 +194,7 @@ async function run() {
 
 		//setting rights to run the command
 		if (osPlatform !== 'win32') {
-			childProcess.exec(`chmod +x ${finalPath}/${applanga}`);
+			childProcess.execFile('chmod', ['+x', `${finalPath}/${applanga}`]);
 		}
 	} catch (err) {
 		core.setFailed(err);
