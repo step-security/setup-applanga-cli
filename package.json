@@ -1,0 +1,32 @@
+{
+  "name": "setup-applanga-cli",
+  "version": "1.0.3",
+  "description": "Setup Applanga command line tool",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/setup-applanga-cli.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "Applanga"
+  ],
+  "homepage": "https://github.com/step-security/setup-applanga-cli#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/tool-cache": "^1.5.5",
+    "axios": "^1.10.0"
+  },
+  "author": "step-security",
+  "bugs": {
+    "url": "https://github.com/step-security/setup-applanga-cli/issues"
+  },
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
