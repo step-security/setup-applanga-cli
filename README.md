@@ -8,6 +8,6 @@ The benefit of using [Github Workflows](https://help.github.com/en/actions/confi
 
 ## Setup
 
-To use [Github Workflows](https://help.github.com/en/actions/configuring-and-managing-workflows) on your repository you need to create a folder called `.github/workflows/` and place the workflow configuration `.yml` files in there. Additonally you also need a `.applanga.json` configuration file present in your repository.
+To use [Github Workflows](https://help.github.com/en/actions/configuring-and-managing-workflows) on your repository you need to create a folder called `.github/workflows/` and place the workflow configuration `.yml` files in there. Additionally you also need a `.applanga.json` configuration file present in your repository.
 
 For a detailed example with setup instructions see the [applanga/github-workflow-example](https://github.com/applanga/github-workflow-example) repository.
