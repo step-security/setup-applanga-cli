@@ -34,7 +34,7 @@ async function getReleases() {
       .get(
         "https://api.github.com/repos/applanga/applanga-cli/releases",
         {
-          headers: { "User-Agent": "Node.js", "Authorization": `bearer ${githubToken}` },
+          headers: { "User-Agent": "Node.js", "Authorization": `Bearer ${githubToken}` },
         },
         (res) => {
           let data = "";
