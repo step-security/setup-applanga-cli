@@ -1,6 +1,6 @@
 {
   "name": "setup-applanga-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Setup Applanga command line tool",
   "main": "index.js",
   "repository": {
